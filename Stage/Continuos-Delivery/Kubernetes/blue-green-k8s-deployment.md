@@ -12,11 +12,13 @@
 
 Users will need to provide a set of inputs for the template to work
 
-1. Service
-  a. *NOTE: Please make sure that your Kubernetes application has 2 Kubernetes Object Type:Services to point to primary and stage*
+1. Service - *NOTE: Please make sure that your Kubernetes application has 2 Kubernetes Object Type:Services to point to primary and stage*
 2. Environment
-  a. Infrastructure Definition
-  b. Connector to the Kubernetes Infrastructure
+3. Infrastructure Definition
+4. Connector to the Kubernetes Cluster
+
+
+### Template
 
 ```YAML
 template:
@@ -24,7 +26,6 @@ template:
   identifier: Blue_Green_Deployment
   versionLabel: "1.0"
   type: Stage
-  tags: {}
   spec:
     type: Deployment
     spec:

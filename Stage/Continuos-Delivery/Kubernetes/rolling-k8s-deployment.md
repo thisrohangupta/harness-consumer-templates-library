@@ -27,7 +27,6 @@ template:
   identifier: CD_Rolling_Deploy
   versionLabel: "1.0"
   type: Stage
-  tags: {}
   spec:
     type: Deployment
     spec:

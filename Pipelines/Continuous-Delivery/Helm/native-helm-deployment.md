@@ -23,7 +23,8 @@ template:
   identifier: Helm_Deployment_Pipeline
   versionLabel: "1.0"
   type: Pipeline
-  tags: {}
+  tags: 
+    owner: Harness
   spec:
     stages:
       - stage:
@@ -64,4 +65,6 @@ template:
                   - AllErrors
                 action:
                   type: StageRollback
+  description: Harness Sample Pipeline Template
+
 ```

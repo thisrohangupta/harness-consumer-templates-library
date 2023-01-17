@@ -24,7 +24,8 @@ template:
   identifier: Kubernetes_Canary_Deployment
   versionLabel: "1.0"
   type: Pipeline
-  tags: {}
+  tags: 
+    owner: Harness
   spec:
     stages:
       - stage:
@@ -96,5 +97,6 @@ template:
                   - AllErrors
                 action:
                   type: StageRollback
+  description: Harness Sample Pipeline Template
 
 ```
