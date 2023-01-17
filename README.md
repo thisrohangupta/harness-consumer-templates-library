@@ -7,8 +7,6 @@
 
 ## Continuous Delivery
 
-### Template References
-
 ### Pipeline Templates
 
 #### Kubernetes Pipelines Templates
@@ -27,6 +25,11 @@
 
 - [Golden Kubernetes Release Pipeline with Canary Continuous Verification](https://github.com/thisrohangupta/harness-consumer-templates-library/blob/af2ee10c8c051350350d5cda7820d7bb091dd2c0/Pipelines/Continuous-Delivery/Kubernetes/kubernetes-rolling-cv-pipeline.md)
 
+- [Helm Deploy Pipeline Template]()
+
+- [Helm Deploy with Rolling Continuous Verification Pipeline Template]()
+
+### Stage Templates
 
 #### Kubernetes Stage Templates
 
@@ -35,3 +38,7 @@
 - [Rolling Deployment Stage Template](https://github.com/thisrohangupta/harness-consumer-templates-library/blob/af2ee10c8c051350350d5cda7820d7bb091dd2c0/Stage/Continuos-Delivery/Kubernetes/rolling-k8s-deployment.md)
 
 - [Blue Green Deployment Stage Template](https://github.com/thisrohangupta/harness-consumer-templates-library/blob/af2ee10c8c051350350d5cda7820d7bb091dd2c0/Stage/Continuos-Delivery/Kubernetes/blue-green-k8s-deployment.md)
+
+#### Helm Stage Templates
+
+- [Helm Deploy Stage Template]()

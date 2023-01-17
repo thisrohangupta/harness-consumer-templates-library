@@ -1,8 +1,8 @@
-# Kubernetes Rolling Deployment Pipeline Template
+# Native Helm Deployment Pipeline Template
 
 ## Introduction
 
-- This template is designed to perform a rolling deployment of a kubernetes service into a given environment
+- This template is designed to perform a helm deployment of a kubernetes service into a given environment
 - User can provide any service as input 
 - User can provide any environment as input along with related infrastructure definition.
 - You can copy the YAML into your Account Level Template Library - Template Studio
@@ -15,25 +15,24 @@
 3. `Infrastructure Definition`
 4. `Kubernetes Connector`
 
-
 ### Template
 
 ```YAML
 template:
-  name: Kubernetes Rolling Deployment
-  identifier: Kubernetes_Rolling_Deployment
+  name: Helm Deployment Pipeline
+  identifier: Helm_Deployment_Pipeline
   versionLabel: "1.0"
   type: Pipeline
   tags: {}
   spec:
     stages:
       - stage:
-          name: Rolling Deployment
-          identifier: Rolling_Deployment
+          name: Deploy Helm
+          identifier: Deploy_Helm
           description: ""
           type: Deployment
           spec:
-            deploymentType: Kubernetes
+            deploymentType: NativeHelm
             service:
               serviceRef: <+input>
               serviceInputs: <+input>
@@ -45,21 +44,19 @@ template:
             execution:
               steps:
                 - step:
-                    name: Rollout Deployment
-                    identifier: rolloutDeployment
-                    type: K8sRollingDeploy
+                    name: Helm Deployment
+                    identifier: helmDeployment
+                    type: HelmDeploy
                     timeout: 10m
                     spec:
                       skipDryRun: false
-                      pruningEnabled: false
               rollbackSteps:
                 - step:
-                    name: Rollback Rollout Deployment
-                    identifier: rollbackRolloutDeployment
-                    type: K8sRollingRollback
+                    name: Helm Rollback
+                    identifier: helmRollback
+                    type: HelmRollback
                     timeout: 10m
-                    spec:
-                      pruningEnabled: false
+                    spec: {}
           tags: {}
           failureStrategies:
             - onFailure:
@@ -67,5 +64,4 @@ template:
                   - AllErrors
                 action:
                   type: StageRollback
-
 ```
