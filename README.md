@@ -33,6 +33,14 @@
 
 #### Amazon Elastic Container Service Pipeline Templates
 
+- [Amazon Elastic Container Service Blue-Green Deployment Pipeline](https://github.com/thisrohangupta/harness-consumer-templates-library/blob/ecs-canary/Pipelines/cd/amazon-elastic-container-services/ecs-bluegreen.md)
+
+- [Amazon Elastic Container Service Canary Deployment Pipeline](https://github.com/thisrohangupta/harness-consumer-templates-library/blob/f2b75c7f357d142dc6630dff0620389675cbe3af/Pipelines/cd/amazon-elastic-container-services/ecs-canary.md)
+
+- [Amazon Elastic Container Service Rolling Deployment Pipeline](https://github.com/thisrohangupta/harness-consumer-templates-library/blob/f2b75c7f357d142dc6630dff0620389675cbe3af/Pipelines/cd/amazon-elastic-container-services/ecs-rolling.md)
+
+
+
 
 ### Stage Templates
 
