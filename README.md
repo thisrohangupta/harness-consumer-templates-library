@@ -25,9 +25,13 @@
 
 - [Golden Kubernetes Release Pipeline with Canary Continuous Verification](https://github.com/thisrohangupta/harness-consumer-templates-library/blob/af2ee10c8c051350350d5cda7820d7bb091dd2c0/Pipelines/Continuous-Delivery/Kubernetes/kubernetes-rolling-cv-pipeline.md)
 
+#### Helm Pipeline Templates
+
 - [Helm Deploy Pipeline Template](https://github.com/thisrohangupta/harness-consumer-templates-library/blob/9b6d3fcea7b9903ad35fe7c8524b7acd37e6140f/Pipelines/Continuous-Delivery/Helm/native-helm-deployment.md)
 
 - [Helm Deploy with Rolling Continuous Verification Pipeline Template](https://github.com/thisrohangupta/harness-consumer-templates-library/blob/9b6d3fcea7b9903ad35fe7c8524b7acd37e6140f/Pipelines/Continuous-Delivery/Helm/native-helm-deployment-cv.md)
+
+
 
 ### Stage Templates
 
