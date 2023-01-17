@@ -12,10 +12,16 @@
 
 Users will need to provide a set of inputs for the template to work
 
+Users will need to provide a set of inputs for the template to work
+
 1. Service
 2. Environment
-  a. Infrastructure Definition
-  b. Connector to the Kubernetes Infrastructure
+3. Infrastructure Definition
+4. Connector to the Kubernetes Cluster
+
+
+### Template
+
 
 ```YAML
 template:
@@ -23,8 +29,6 @@ template:
   identifier: Canary_Deployment
   versionLabel: "1.0"
   type: Stage
-  description: Canary Deployment Sample Template
-  tags: {}
   spec:
     type: Deployment
     spec:
