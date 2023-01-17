@@ -1,13 +1,15 @@
-# Kubernetes Rolling Deployment Pipeline with Continuous Verification Template
+# Native Helm Deployment Pipeline Template
 
 ## Introduction
 
-- This template is designed to perform a rolling deployment of a kubernetes service into a given environment
-- User can provide any service as input
+- This template is designed to perform a helm deployment of a kubernetes service into a given environment
+- User can provide any native helm service as input
 - User can provide any environment as input along with related infrastructure definition.
 - You can copy the YAML into your Account Level Template Library - Template Studio
+- We can run Harness Continuous Verification on the deployed Helm Chart
+- For Continuous Verification to work, you need to provide a verification provider connecter in Harness
+- You should also configure a Monitored Service in the SRM Product in Harness.
 - Optional: you can save this YAML below in Git and "Import from Git", Harness will read the configuration file from Github.
-
 
 ### Inputs
 
@@ -22,20 +24,20 @@
 
 ```YAML
 template:
-  name: Kubernetes Rolling Deployment
-  identifier: Kubernetes_Rolling_Deployment
+  name: Helm Deployment Pipeline
+  identifier: Helm_Deployment_Pipeline
   versionLabel: "1.0"
   type: Pipeline
   tags: {}
   spec:
     stages:
       - stage:
-          name: Rolling Deployment
-          identifier: Rolling_Deployment
+          name: Deploy Helm
+          identifier: Deploy_Helm
           description: ""
           type: Deployment
           spec:
-            deploymentType: Kubernetes
+            deploymentType: NativeHelm
             service:
               serviceRef: <+input>
               serviceInputs: <+input>
@@ -47,17 +49,16 @@ template:
             execution:
               steps:
                 - step:
-                    name: Rollout Deployment
-                    identifier: rolloutDeployment
-                    type: K8sRollingDeploy
+                    name: Helm Deployment
+                    identifier: helmDeployment
+                    type: HelmDeploy
                     timeout: 10m
                     spec:
                       skipDryRun: false
-                      pruningEnabled: false
                 - step:
                     type: Verify
-                    name: Rolling Verification
-                    identifier: Rolling_Verification
+                    name: Helm Deployment Verification
+                    identifier: Helm_Deployment_Verification
                     spec:
                       type: Rolling
                       monitoredService:
@@ -91,12 +92,11 @@ template:
                                   type: Ignore
               rollbackSteps:
                 - step:
-                    name: Rollback Rollout Deployment
-                    identifier: rollbackRolloutDeployment
-                    type: K8sRollingRollback
+                    name: Helm Rollback
+                    identifier: helmRollback
+                    type: HelmRollback
                     timeout: 10m
-                    spec:
-                      pruningEnabled: false
+                    spec: {}
           tags: {}
           failureStrategies:
             - onFailure:

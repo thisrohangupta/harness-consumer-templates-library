@@ -18,6 +18,9 @@
 5. `Verification Provider Connector`
 6. `Monitored Service`
 
+
+### Template
+
 ```YAML
 template:
   name: Kubernetes Canary Deployment

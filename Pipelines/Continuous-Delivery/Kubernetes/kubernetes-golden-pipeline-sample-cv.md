@@ -14,6 +14,8 @@
 3. Kubernetes Connectors for (Dev, QA, or Prod Environments)
 4. Continuous Verification Step needs a Monitored Service to be configured
 
+### Template
+
 ```YAML
 template:
   name: Golden Release Pipeline

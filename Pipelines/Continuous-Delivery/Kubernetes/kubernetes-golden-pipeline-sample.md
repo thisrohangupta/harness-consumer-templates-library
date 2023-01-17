@@ -14,6 +14,8 @@
 2. Environment
 3. Kubernetes Connectors for (Dev, QA, or Prod Environments)
 
+### Template
+
 
 ```YAML
 template:
