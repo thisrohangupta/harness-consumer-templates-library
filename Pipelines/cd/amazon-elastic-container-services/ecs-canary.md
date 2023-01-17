@@ -8,6 +8,7 @@
 - You can copy the YAML into your Account Level Template Library - Template Studio
 - Optional: you can save this YAML below in Git and "Import from Git", Harness will read the configuration file from Github.
 
+### Template
 
 ```YAML
 template:
