@@ -5,7 +5,12 @@
 ## Introduction
 
 - [Harness.io](https://www.harness.io/) User's can use the sample templates to quickly get started with Harness. 
-- Harness offer's templates at the [Account Level](https://developer.harness.io/docs/platform/Templates/template#templates-at-scopes) and user's can sync those to their template library
+- Harness offer's templates at the [Account Level, Organization Level and Project Level](https://developer.harness.io/docs/platform/Templates/template#templates-at-scopes)
+- Check out [Harness' Template Library Best Practices](https://github.com/thisrohangupta/harness-consumer-templates-library/blob/main/Best-Practices/template-library-best-practices.md)
+- The Templates in this repo are designed for the **Account Level** 
+
+
+<div style="position: relative; padding-bottom: 64.86486486486486%; height: 0;"><iframe src="https://www.loom.com/embed/992e3c457e134a6ea199b70ed039377c" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ## Contributors
 
