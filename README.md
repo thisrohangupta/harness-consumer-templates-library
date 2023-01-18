@@ -9,10 +9,7 @@
 - Check out [Harness' Template Library Best Practices](https://github.com/thisrohangupta/harness-consumer-templates-library/blob/main/Best-Practices/template-library-best-practices.md)
 - The Templates in this repo are designed for the **Account Level** 
 
-![How to Use the Public Template Library](https://www.loom.com/share/992e3c457e134a6ea199b70ed039377c)(<a href="https://www.loom.com/share/992e3c457e134a6ea199b70ed039377c">
-    <p>Harness Public Template Library - How to Use Video - Watch Video</p>
-    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/992e3c457e134a6ea199b70ed039377c-with-play.gif">
-  </a>)
+![How to Use the Public Template Library](https://www.loom.com/share/992e3c457e134a6ea199b70ed039377c)(https://www.loom.com/share/992e3c457e134a6ea199b70ed039377c)
 
 ## Contributors
 
