@@ -46,6 +46,10 @@
 
 - [Amazon Elastic Container Service Rolling Deployment Pipeline](https://github.com/thisrohangupta/harness-consumer-templates-library/blob/main/Pipelines/cd/amazon-elastic-container-services/ecs-rolling.md)
 
+#### GitOps Kubernetes Pipeline Templates
+
+- [GitOps PR Pipeline](https://github.com/thisrohangupta/harness-consumer-templates-library/blob/main/Pipelines/cd/gitops/gitops-kubernetes.md)
+
 ### Stage Templates
 
 #### Kubernetes Stage Templates
