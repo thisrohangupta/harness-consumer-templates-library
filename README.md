@@ -68,6 +68,10 @@
 
 - [Blue-Green Deployment Stage Template](https://github.com/thisrohangupta/harness-consumer-templates-library/blob/main/Stage/cd/amazon-elastic-container-services/ecs-bluegreen.md)
 
+#### GitOps Kubernetes Deployment Stage Template
+
+- [GitOps PR Deployment Stage Template](https://github.com/thisrohangupta/harness-consumer-templates-library/blob/main/Stage/cd/gitops/gitops-cd-pipeline.md)
+
 ### Step Templates
 
 - [Health Check Step](https://github.com/thisrohangupta/harness-consumer-templates-library/blob/main/Steps/cd/health-check.md)
