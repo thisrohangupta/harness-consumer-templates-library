@@ -4,18 +4,13 @@
 
 ## Introduction
 
-- [Harness.io](https://www.harness.io/) User's can use the sample templates to quickly get started with Harness. 
+- [Harness.io](https://www.harness.io/) User's can use the sample templates to quickly get started with Harness.
 - Harness offer's templates at the [Account Level, Organization Level and Project Level](https://developer.harness.io/docs/platform/Templates/template#templates-at-scopes)
 - Check out [Harness' Template Library Best Practices](https://github.com/thisrohangupta/harness-consumer-templates-library/blob/main/Best-Practices/template-library-best-practices.md)
-- The Templates in this repo are designed for the **Account Level** 
+- The Templates in this repo are designed for the **Account Level**
+- [2 Minute - Get Started Video](https://www.loom.com/share/992e3c457e134a6ea199b70ed039377c) to help you get started with Harness Public Template Library
 
-[2 Minute - Get Started Video](https://www.loom.com/share/992e3c457e134a6ea199b70ed039377c)
-
-
-## Contributors
-
-- Maintainer: @thisrohangupta
-- We welcome contributions, please open up a `Pull-Request` and Assign me for review.
+*Note: This Repository is under active development. The Harness team is adding new Templates to this repo for use.*
 
 ## Continuous Delivery
 
@@ -51,9 +46,6 @@
 
 - [Amazon Elastic Container Service Rolling Deployment Pipeline](https://github.com/thisrohangupta/harness-consumer-templates-library/blob/main/Pipelines/cd/amazon-elastic-container-services/ecs-rolling.md)
 
-
-
-
 ### Stage Templates
 
 #### Kubernetes Stage Templates
@@ -76,4 +68,7 @@
 
 - [Blue-Green Deployment Stage Template](https://github.com/thisrohangupta/harness-consumer-templates-library/blob/main/Stage/cd/amazon-elastic-container-services/ecs-bluegreen.md)
 
+## Contributors
 
+- Maintainer: @thisrohangupta
+- We welcome contributions, please open up a `Pull-Request` and Assign me for review.
