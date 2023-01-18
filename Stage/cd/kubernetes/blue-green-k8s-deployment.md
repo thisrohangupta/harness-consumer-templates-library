@@ -6,7 +6,7 @@
 - This template is used to perform Kubernetes Deployments in a [Blue Green](https://developer.harness.io/docs/continuous-delivery/cd-deployments-category/deployment-concepts#bluegreen-deployment) deployment style
 - You can copy this YAML into your Template Library Builder in the Harness and save it, or you can upload this file to a Git Repo, and import it into the Harness Template Library
 
-## Rolling Deployment Stage Template YAML
+## Blue Green Deployment Stage Template
 
 ### Inputs
 

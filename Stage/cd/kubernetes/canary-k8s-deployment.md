@@ -6,11 +6,9 @@
 - This template is used to perform Kubernetes Deployments in a [Canary deployment](https://developer.harness.io/docs/continuous-delivery/cd-deployments-category/deployment-concepts#canary-deployment) style
 - You can copy this YAML into your Template Library Builder in the Harness and save it, or you can upload this file to a Git Repo, and import it into the Harness Template Library
 
-## Canary Deployment Stage Template YAML
+## Canary Deployment Stage Template
 
 ### Inputs
-
-Users will need to provide a set of inputs for the template to work
 
 Users will need to provide a set of inputs for the template to work
 

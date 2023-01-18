@@ -58,3 +58,10 @@
 
 #### Amazon Elastic Container Service Stage Templates
 
+- [Amazon Elastic Container Service Rolling Deploy Stage]
+
+- [Canary Deployment Stage Template](https://github.com/thisrohangupta/harness-consumer-templates-library/blob/main/Stage/cd/amazon-elastic-container-services/ecs-canary.md)
+
+- [Rolling Deployment Stage Template](https://github.com/thisrohangupta/harness-consumer-templates-library/blob/main/Stage/cd/amazon-elastic-container-services/ecs-rolling.md)
+
+- [Blue-Green Deployment Stage Template](https://github.com/thisrohangupta/harness-consumer-templates-library/blob/main/Stage/cd/amazon-elastic-container-services/ecs-bluegreen.md)

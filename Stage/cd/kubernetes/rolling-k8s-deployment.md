@@ -6,13 +6,12 @@
 - This template is used to perform Kubernetes Deployments in a [Rolling deployment](https://developer.harness.io/docs/continuous-delivery/cd-deployments-category/deployment-concepts#rolling-deployment) style.
 - You can copy this YAML into your Template Library Builder in the Harness and save it, or you can upload this file to a Git Repo, and import it into the Harness Template Library
 
-## Rolling Deployment Stage Template YAML
+## Rolling Deployment Stage Template
 
 ### Inputs
 
 Users will need to provide a set of inputs for the template to work
 
-Users will need to provide a set of inputs for the template to work
 
 1. Service
 2. Environment

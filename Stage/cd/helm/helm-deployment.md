@@ -16,6 +16,8 @@
 3. `Infrastructure Definition`
 4. `Kubernetes Connector`
 
+### Template
+
 ```YAML
 template:
   name: Deploy Helm
