@@ -1,5 +1,7 @@
 # Harness Public Template Library
 
+![CD](static/img/harnessplatform.png)
+
 ## Introduction
 
 - [Harness.io](https://www.harness.io/) User's can use the sample templates to quickly get started with Harness. 
@@ -63,3 +65,5 @@
 - [Rolling Deployment Stage Template](https://github.com/thisrohangupta/harness-consumer-templates-library/blob/main/Stage/cd/amazon-elastic-container-services/ecs-rolling.md)
 
 - [Blue-Green Deployment Stage Template](https://github.com/thisrohangupta/harness-consumer-templates-library/blob/main/Stage/cd/amazon-elastic-container-services/ecs-bluegreen.md)
+
+
