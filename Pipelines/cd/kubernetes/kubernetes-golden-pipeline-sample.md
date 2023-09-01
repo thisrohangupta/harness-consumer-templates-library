@@ -1,4 +1,4 @@
-# Kubernetes Golden Release Pipeline Template with CV
+# Kubernetes Golden Release Pipeline Template
 
 ## Introduction
 
